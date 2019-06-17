@@ -8,9 +8,9 @@ The focus of this tool was to help extract all the metadata from Hive at once fo
 
 2.	Context
 
-One of the leading retail clients was using Hadoop Hortonworks platform. One of the key usage of this environment was moving the ETL developed using Datastage to Hadoop platform primarily using Hive, Sqoop and Oozie technologies. 
+One of the key usage of this environment was moving the ETL developed using Datastage to Hadoop platform primarily using Hive, Sqoop and Oozie technologies. 
 
-Infosys was involved in migrating few of their ETL jobs to Hadoop environment. One of the key pre requisite was to migrate source tables to Hadoop prior to rebuilding the ETL. It was a must for development teams to ensure that source tables are not replicated in Hadoop environment and teams check all the existing database and tables before copying them over. 
+migrating few of ETL jobs to Hadoop environment. One of the key pre requisite was to migrate source tables to Hadoop prior to rebuilding the ETL. It was a must for development teams to ensure that source tables are not replicated in Hadoop environment and teams check all the existing database and tables before copying them over. 
 
 Searching for a table or a column across all databases becomes very manual due to lack of access to Hive metastore (mysql, derby etc.) and also Hive commands work on a single table at a time. 
 
